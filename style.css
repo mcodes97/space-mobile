@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600;700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  background-color: rgb(0, 0, 0);
+  color: #333;
+  font-family: Tektur;
+  overflow: hidden;
+  height: 100%;
+}
+
+span{
+  color: #b0b0b0;
+}
+
+#neptune{
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  transform: translate(-40px,170px);
+}
+
+#mars{
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  transform: translate(-50px,200px);
+}
+
+#jupiter{
+  position: fixed;
+  width: 800px;
+  height: 800px;
+  transform: translate(-100px,-10px);
+}
+
+#pluto{
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  transform: translate(-200px,300px);
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 45px;
+}
+
+.lines{
+  transform: translate(50px,0px);
+}
+
+.txt-2-nep{
+  text-align: center;
+  z-index: 1;
+  margin-top: 200px;
+}
+
+.move-nep{
+  position: absolute;
+  right: 55px;
+  top: 450px;
+  transform: translate(20px,-100px);
+}
+
+.inv-nep{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.name-nep{
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.txt-2-mars{
+  text-align: center;
+  z-index: 1;
+  margin-top: 200px;
+}
+
+.move-mars{
+  position: absolute;
+  right: 55px;
+  top: 450px;
+  transform: translate(-40px,-100px);
+}
+
+.inv-mars{
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.name-mars{
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+
+.txt-2-jup{
+  text-align: center;
+  z-index: 1;
+  margin-top: 200px;
+}
+
+.move-jup{
+  position: absolute;
+  right: 55px;
+  top: 450px;
+  transform: translate(20px,-100px);
+}
+
+.inv-jup{
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.name-jup{
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+
+.txt-2-pluto{
+  text-align: center;
+  z-index: 1;
+  margin-top: 200px;
+}
+
+.move-pluto{
+  position: absolute;
+  right: 55px;
+  top: 450px;
+  transform: translate(-10px,-100px);
+}
+
+.inv-pluto{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.name-pluto{
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+ .dropbtn {
+  color: white;
+  opacity: 0;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transform: translate(-40px,-20px);
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ddd;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: #c7c7c7;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.10);
+  font-family: 'Tektur', cursive;
+  min-width: 90px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transform: translate(-65px,-20px);
+}
+
+.link-one, .link-two, .link-three{
+  height: 40px;
+  border-radius: 10px;
+
+}
+
+.dropdown-content a {
+  color: #b0b0b0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(165, 165, 165, 0.3);
+}
+
+.show {
+  display:block;
+} 
+
+footer {
+  text-align: center;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+}
+
+@media (max-width:360px){
+  body{
+    overflow: hidden;
+  }
+  
+  .move{
+  position: absolute;
+  right: 30px;
+  top: -150px;
+}
+
+.left{
+  width: 30px;
+  transform: translate(0px, -40px);
+}
+
+.right{
+  width: 30px;
+  transform: translate(0px, -40px);
+}
+}
