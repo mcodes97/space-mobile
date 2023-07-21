@@ -185,6 +185,7 @@ span{
 
 .link-one, .link-two, .link-three{
   height: 40px;
+  padding: 0 0 0 0;
   border-radius: 10px;
   text-align: center;
   transform: translate(-10px,0);
