@@ -187,6 +187,7 @@ span{
   height: 40px;
   border-radius: 10px;
   transform: translate(-5px,0);
+  letter-spacing: 2px;
 }
 
 .dropdown-content a {
