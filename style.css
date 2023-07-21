@@ -173,7 +173,7 @@ span{
   display: none;
   position: absolute;
   color: #c7c7c7;
-  
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.10);
   font-family: 'Tektur', cursive;
   min-width: 90px;
