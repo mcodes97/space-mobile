@@ -186,7 +186,7 @@ span{
 .link-one, .link-two, .link-three{
   height: 40px;
   border-radius: 10px;
-  transform: translate(-5px,0);
+  transform: translate(-10px,0);
   letter-spacing: 2px;
 }
 
@@ -206,6 +206,7 @@ span{
 } 
 
 footer {
+  font-size: 10px;
   text-align: center;
   position:fixed;
   left:0px;
