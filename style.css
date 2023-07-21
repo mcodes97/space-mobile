@@ -28,6 +28,10 @@ span{
   color: #b0b0b0;
 }
 
+svg{
+  transform: translate(-10px,0);
+}
+
 .menu{
   z-index: 1;
 }
@@ -169,7 +173,8 @@ span{
   font-size: 16px;
   border: none;
   cursor: pointer;
-  transform: translate(-40px,-20px);
+  border: 1px blue solid;
+  transform: translate(-50px,-20px);
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -186,7 +191,6 @@ span{
   display: none;
   position: absolute;
   color: #c7c7c7;
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.10);
   font-family: 'Tektur', cursive;
   min-width: 90px;
