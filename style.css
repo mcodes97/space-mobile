@@ -186,7 +186,7 @@ span{
 .link-one, .link-two, .link-three{
   height: 40px;
   border-radius: 10px;
-  display: block;
+  transform: translate(10px,0);
 }
 
 .dropdown-content a {
